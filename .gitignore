@@ -2,6 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Threads1/obj/Debug
-/Threads1/bin/Debug
-/Threads1/obj/Release
+obj
+bin
+obj
