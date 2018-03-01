@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPriority", "ThreadPri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsBackground", "IsBackground\IsBackground.csproj", "{9C824D68-2B8A-4F5A-99B4-CCE8545ACF39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{96AE7113-F992-4995-A3F1-149B377FC92A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9C824D68-2B8A-4F5A-99B4-CCE8545ACF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C824D68-2B8A-4F5A-99B4-CCE8545ACF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C824D68-2B8A-4F5A-99B4-CCE8545ACF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AE7113-F992-4995-A3F1-149B377FC92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AE7113-F992-4995-A3F1-149B377FC92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AE7113-F992-4995-A3F1-149B377FC92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AE7113-F992-4995-A3F1-149B377FC92A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
