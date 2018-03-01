@@ -12,13 +12,16 @@ namespace MutexUsing
 
         static void Main(string[] args)
         {
+            
             int i = 0;
             while(true)
             {
+                //mutex.WaitOne();
                 Thread thread = new Thread(new ThreadStart(Function));
                 thread.Name = String.Format("Поток {0}", i + 1);
                 thread.Start();
                 i++;
+                //mutex.ReleaseMutex();
             }
         }
 
